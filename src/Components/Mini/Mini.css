@@ -1,0 +1,159 @@
+.main {
+  background-image: url("C:\Users\sonuh\OneDrive\Desktop\Orive Website\Website\src\assets\s.png");
+  padding: 30px;
+  margin-top: 10px;
+}
+.three-cards-top-11{
+  display: none;
+}
+.three-cards-top-22{
+  display: none;
+}
+.three-cards-top-33{
+  display: none;
+}
+.main h {
+  text-align: center;
+  color: chocolate;
+}
+.main h2 {
+  color: white;
+  text-align: center;
+}
+.card-top-wala {
+  transform: scale(0.75);
+  background-color: white;
+  height: 300px;
+  width: 450px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.119);
+}
+
+.hover-card-top-wala {
+  transform: scale(0.85);
+  height: 300px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: -15px;
+}
+.card-top-wala:hover {
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #fa6220 0%, #ef8b33 47.81%, #ef8b33 100%)
+  );
+  color: white;
+  .three-cards-top-11{
+    display: block;
+  }
+  .three-cards-top-22{
+    display: block;
+  }
+  .three-cards-top-33{
+    display: block;
+  }
+  .three-cards-top-1{
+    display: none;
+  }
+  .three-cards-top-2{
+    display: none;
+  }
+  .three-cards-top-3{
+    display: none;
+  }
+}
+.card-top-text {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: end;
+  position: relative;
+  bottom: 40px;
+  right: 30px;
+}
+.card h2 {
+  text-align: left;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  color: #777888;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+}
+.read-more-container {
+  display: flex; 
+  align-items: center;
+}
+
+.read-more-btn-arrow-circle {
+  width: 24px;
+  height: 24px;
+  background-color: white; /* Circle color */
+  border-radius: 50%; /* To make it a circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px; /* Adjust as needed for spacing */
+}
+
+.arrow-circle::before {
+  content: "\2193"; /* Unicode character for a downward arrow */
+  /* Arrow color */
+}
+
+.read-more-btn {
+  background-color: orangered;
+  color: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+}
+.home-page-cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .card-hov:hover{
+  background-image: url(../../assets/001.png);
+} */
+/* 
+.card-top-text{
+display: none;
+} */
+
+
+@media(max-width: 1242px){
+  .home-page-cards{
+    transform: scale(0.9);
+  }
+}
+@media(max-width: 1120px){
+  .home-page-cards{
+    transform: scale(0.8);
+  }
+}
+@media(max-width: 1000px){
+  .card-top-wala-l{
+    margin-right: -50px;
+  }
+  .card-top-wala-r{
+    margin-left: -50px; 
+  }
+}
+@media(max-width: 895px){
+  .home-page-cards{
+    transform: scale(0.75);
+  }
+} 
+@media(max-width: 877px){
+  .main{
+    padding: 50px;
+  }
+  .home-page-cards{
+    transform: scale(0.75);
+  }
+} 

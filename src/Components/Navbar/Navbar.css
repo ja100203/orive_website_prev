@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&family=Permanent+Marker&family=Poppins:wght@300&display=swap');
+.main-navbar-nav{
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.logo{
+    width: 350px;
+    cursor: pointer;
+}
+.navbar-elements{
+  display: flex;
+}
+
+.contact-num {
+    display: flex;
+    align-items: center;
+}
+.contact-img{
+    height: 30px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.phoneNo{
+  cursor: pointer;
+}
+.number-ph{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+.call{
+  color: rgba(247, 108, 36, 1);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.nav-item{
+  margin-top: 4px;
+}
+.all-nav-elemnt{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.nav-link{
+  color: black;
+}
+.nav-link:hover{
+  color: rgba(247, 108, 36, 1);
+}
+.lets-conn-btn{
+    cursor: pointer;
+    padding: 8px 22px;
+    border-radius: 4px;
+    background-color: rgba(247, 108, 36, 1);
+    color: #fff6f6;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    margin: 3px 0 0 15px;
+}
+.lets-conn-btn:hover{
+  background-color: rgba(169, 51, 46, 1);
+}
+
+.down-arrow{
+  font-size: 20px;
+  margin-bottom: 2px;
+  margin-left: -3px;
+}
+.dropdown {
+    display: inline-block;
+  }
+
+
+  .dropdown-content {
+    display: none;   
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 200px;
+    height: auto;
+    line-height: 20px;
+  }
+  .dropdown-content li:hover {
+    background-color: #ededed;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+    border: none;
+  }
+  @media(max-width: 1210px) {   
+    .logo{
+      width: 300px;
+    }
+  }
+  @media(max-width: 1160px) {   
+    .logo{
+      width: 250px;
+    }
+  }
+  @media(max-width: 1110px) {   
+    .logo{
+      width: 250px;
+    }
+    .all-nav-elemnt{
+      font-size: 0.8rem;
+    }
+    .button-connect{
+      transform: scale(0.85);
+    }
+    .contact-num{
+      transform: scale(0.85);
+    }
+  }
+  @media(max-width: 1069px) {   
+    .logo{
+      width: 250px;
+    }
+    .all-nav-elemnt{
+      font-size: 0.7rem;
+    }
+    .button-connect{
+      transform: scale(0.75);
+    }
+    .contact-num{
+      transform: scale(0.75);
+    }
+  }
+  @media(max-width: 1028px) {   
+    .logo{
+      width: 220px;
+    }
+    .all-nav-elemnt{
+      font-size: 0.7rem;
+    }
+    .button-connect{
+      transform: scale(0.75);
+    }
+    .contact-num{
+      transform: scale(0.75);
+    }
+  }
+  @media(max-width: 998px) {   
+    .logo{
+      width: 220px;
+    }
+    .all-nav-elemnt{
+      font-size: 0.65rem;
+    }
+    .button-connect{
+      transform: scale(0.70);
+    }
+    .contact-num{
+      transform: scale(0.70);
+    }
+  }
+  @media(max-width:992px){
+    .navbar-right-content{
+      text-align: center;
+      background-color: white;
+    }
+    .contact-num{
+      margin: auto;
+      padding: 10px 0;
+    }
+    .button-connect{
+      margin-bottom: 10px;
+    }
+    .dropdown-content{
+      margin-left: 130px;
+    }
+    @media(max-width: 1028px) {   
+      .main-navbar-nav{
+        height: auto;
+      }
+      .logo{
+        width: 350px;
+      }
+      .all-nav-elemnt{
+        font-size: 0.9rem;
+      }
+      .button-connect{
+        transform: scale(1);
+      }
+      .contact-num{
+        transform: scale(1);
+      }
+    }
+  }
+  @media(max-width:675px){
+    .logo{
+      width: 300px;
+    }
+  }
+  @media(max-width:400px){
+    .logo{
+      width: 250px;
+    }
+  }

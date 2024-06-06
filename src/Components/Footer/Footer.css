@@ -1,0 +1,138 @@
+
+.footer{
+	background:url('../../assets/Grou.png');
+    color:white;
+    padding: 5rem 1rem 2rem 1rem;
+
+}.footerHead{
+    font-weight: 700;
+    font-size:22px;
+    padding-bottom: 3rem;
+}
+.footerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+.footerSubContainer{
+    width: 200px;
+    text-align: left;
+}
+.hrBorder{
+    border-top: 3px solid #dedede;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+}
+.footerNormalText{
+    font-size:12px;
+    font-weight: 400;
+    color: white;
+    line-height: 25px;
+    padding-bottom: 1rem;
+}
+.footerHighlightTextOne{
+    font-size:14px;
+    font-weight: 400;
+    color:#F76C24;
+    width:4.3rem;
+}
+.footer-foot{
+    text-align: center;
+    transform: scale(0.9);
+}
+.footer-logo{
+    height: 55px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.footerHighlightText{
+    font-size:14px;
+    font-weight: 400;
+    color:#F76C24;
+}
+.footerContentSet{
+    display: flex;
+}
+.footerContentSet-logo{
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+.footerSocialIconsContainer{
+    display: flex;
+    gap:0.8rem;
+    padding-left: 1rem;
+}
+.footerSocialIcons{
+    color:#F76C24;
+    background: white;
+    border-radius: 50%;
+    height: 1.8rem;
+    width:1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.footerSocialIcons:hover{
+    transform: scale(1.1);
+}
+.inputEmail{
+    width:170px;
+    background: white;
+    font-size: 14px;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.inputContainer{
+    display: flex;
+    border: none;
+}
+.subBtn{
+    border: none;
+    border-radius: 0 5px 5px 0;
+    width:130px;
+    background: 
+    rgba(254, 93, 20, 1);
+    font-size: 0.93rem;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:2.5rem;
+    color:white;
+}
+.subBtn:hover{
+    cursor: pointer;
+    background-color: rgba(169, 51, 46, 1);
+}
+@media(max-width:1242px){
+    .footer-logo{
+        height: 40px;
+    }
+}
+@media(max-width:1150px){
+    .inputContainer{
+        transform: scale(0.85);
+        margin-left: -18px;
+    }
+}
+@media(max-width:1133px){
+    .footer{
+        padding-right: 2rem;
+    }
+}
+@media(max-width:1043px){
+    .footer{
+        padding-right: 3rem;
+    }
+}

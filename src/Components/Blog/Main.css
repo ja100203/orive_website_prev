@@ -1,0 +1,25 @@
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.App {
+  background-color: #fff;
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+.our-blog {
+  text-align: center;
+  color: rgba(247, 108, 36, 1);
+}
+.our-blog-latest {
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 2rem;
+  color: rgba(47, 48, 69, 1);
+  text-align: center;
+}
+.text-blog-card-home {
+  padding: 50px 0;
+}

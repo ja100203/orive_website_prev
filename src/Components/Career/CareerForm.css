@@ -1,0 +1,12 @@
+.form-control-c{
+    outline: none;
+    border: 1px solid grey;
+}
+.close-aply{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.close-aply:hover{
+    color: rgba(247, 108, 36, 1);
+}
